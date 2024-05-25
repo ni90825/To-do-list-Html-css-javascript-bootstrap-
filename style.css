@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+body{
+    background-image: linear-gradient(to right, #051933 0%, #345975 100%);
+    width:100vw;
+    height:100vh;
+    overflow:hidden;
+}
+.leftside{
+    width:fit-content;
+    padding:6px;
+}
+.leftside,.rightside{
+    background-color:rgba(255, 255, 255, 0.918);
+    border-radius: 10px;
+    margin:auto;
+}
+.rightside{
+    padding:10px;
+    height: 90%;
+    overflow: hidden;
+}
+.heading{
+    font-family: "Comfortaa", sans-serif;
+    font-weight:500;
+    font-weight: bold;
+    color:white;
+    margin-bottom:10px;
+}
+.inputsection{
+    width:100%;
+    box-shadow: 0px 3px 2px #9f9f9f;
+
+}
+
+.addbutton {
+    background-color:  #435d71 !important;
+    border-color: none !important; 
+    color: white !important; 
+    
+  }
+  
+  .addbutton:hover {
+    background-color: #243949 !important; 
+    border-color: none !important; 
+    color: #fff !important; 
+  }
+  
+  .addbutton:focus,
+  .addbutton:active {
+    border-color: none; 
+    color: #fff;
+  }
+
+  input{
+    font-family:"Poppins";
+    background-color: #f7f7f7;
+    
+  }
+
+  input:focus{
+  border-color: white !important;
+  outline: 0px !important;
+  border: 0px !important;
+  }
+  
+  .deletebutton{
+    background-color: #dc3545 !important;
+  }
+  .deletebutton:hover{
+    background-color: #b52534 !important;
+  }
+  .task{
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 17px;
+  }
+  .container {
+    border-bottom: 2px solid #b9b8b8;
+}
+
+.taskdiv::-webkit-scrollbar {
+    width: 5px;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  .taskdiv::-webkit-scrollbar-thumb {
+    background-color: #32526c;
+    border-radius: 3px;
+  }
+  .taskdiv::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 3px;
+  }
+.active{
+    background-color:rgb(107, 107, 107);
+    font-weight: 600;
+    color:white !important;
+    border-radius:3px;
+}
+.tasknotfoundtext{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.4rem;
+    height: 90%;
+    justify-content: center;
+    padding-bottom: 20px;
+    vertical-align: middle;
+    color:black;
+}
+.modal-content{
+    background-color: #fffffff7 !important;
+}
+.modal-header{
+    justify-content: space-between;
+}
+.close{
+    background-color: transparent;
+    color:black;
+    border:0px;
+}
+.modal-body{
+    color: #b72d2d !important;
+    font-size: 18px !important;
+}
+.modal-backdrop{
+    background-color: #00000054 !important;
+}
+.displayyes{
+    display:block !important;
+}
